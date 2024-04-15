@@ -9,14 +9,12 @@ const NavBarLogin = () => {
     <nav className=" bg-zinc-800">
       <div className="container max-w-7xl m-auto px-8 py-4">
         <div className="lg:flex lg:flex-row flex-col justify-between items-center gap-4">
-          <div className="flex lg:w-fit w-full lg:m-auto mb-4 items-center justify-center ">
-            <div className="flex justify-between items-center w-full">
-              <div>
-                <img src={logo} alt="" width={60} height={60} />
-              </div>
-              <div>
-                <FaBars className="lg:hidden text-white text-3xl" />
-              </div>
+          <div className="flex justify-between items-center w-full">
+            <div>
+              <img src={logo} alt="" width={60} height={60} />
+            </div>
+            <div>
+              <FaBars className="lg:hidden text-white text-3xl" />
             </div>
           </div>
 
